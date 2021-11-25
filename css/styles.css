@@ -28,7 +28,35 @@ body {
   color: var(--text-accent-color);
 }
 
+/* ====Style NAV==== */
+.site-nav .link {
+  color: var(--text-prime-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--text-accent-color);
+}
+
+/* === КОНТАКТЫ  === */
+.contakt-header .link {
+  color: var(--text-second-color);
+}
+.contakt-header .link:hover,
+.contakt-header .link:focus {
+  color: var(--text-accent-color);
+}
 /* ===========  HEADER FIN  ====== */
-.slogan {
+
+/* ===  MAIN  === */
+/* ===  HERO  === */
+.hero-img {
   background-color: var(--text-second-color);
+}
+.hero-title {
+  font-size: 44px;
+  font-weight: 900;
+  color: var(--body-prime-color);
+}
+.hero-button {
+  background-color: var(--text-accent-color);
 }
