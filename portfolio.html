@@ -17,11 +17,12 @@
 <body>
     <!-- ШАПКА САЙТА -->
     <header class="header">
-        <!-- ГЛАВНАЯ НАВИГАЦИЯ C ПЕРВЫМ СПИСКОМ -->
-        <!-- ЛОГОТИП СТУДИИ -->
-        <a href="./index.html" class="link logo"><span class="blue">Web</span><span class="darck">Studio</span></a>
-        <nav class="general-nav">
 
+        <!-- ГЛАВНАЯ НАВИГАЦИЯ C ПЕРВЫМ СПИСКОМ -->
+
+        <nav class="general-nav">
+            <!-- ЛОГОТИП СТУДИИ -->
+            <a href="./index.html" class="link logo"><span class="blue">Web</span><span class="studio">Studio</span></a>
             <!-- ПЕРВЫЙ СПИСОК -->
             <ul class="site-nav list">
                 <li class=""><a href="./index.html" class="link studio">Студия</a></li>
@@ -30,107 +31,72 @@
             </ul>
         </nav>
         <!-- КОНТАКТЫ ВТОРОЙ СПИСОК В ШАПКЕ -->
-        <ul class="list contakt">
-            <li class="contact-mail">
-                <a href="mailto:info@devstudio.com" class="" rel="">info@devstudio.com</a>
+        <ul class="list contakt-header">
+            <li>
+                <a href="mailto:info@devstudio.com" class="link" rel="">info@devstudio.com</a>
             </li>
-            <li class="">
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <li>
+                <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
             </li>
         </ul>
     </header>
     <!-- MAIN СОДЕРЖАНИЕ -->
     <main>
-        <section class="">
-            <h1 class="">Портфолио</h1>
-            <ul class="">
-                <li class=""><button type="button" class="button-portfolio">Все</button></li>
-                <li class=""><button type="button" class="button-portfolio">Веб-сайты</button></li>
-                <li class=""><button type="button" class="button-portfolio">Приложения</button></li>
-                <li class=""><button type="button" class="button-portfolio">Дизайн</button></li>
-                <li class=""><button type="button" class="button-portfolio">Маркетинг</button></li>
+        <section class="section portfolio">
+            <h2 class="">Портфолио</h2>
+            <!-- КНОПКИ -->
+            <ul class="list work ">
+                <li class=""><button type="button" class="button-work">Все</button></li>
+                <li class=""><button type="button" class="button-work">Веб-сайты</button></li>
+                <li class=""><button type="button" class="button-work">Приложения</button></li>
+                <li class=""><button type="button" class="button-work">Дизайн</button></li>
+                <li class=""><button type="button" class="button-work">Маркетинг</button></li>
             </ul>
-            <ul class="list">
-                <li class="">
-                    <a href="#" class="link">
-                        <img src="./images/01-tehno.jpg" alt="Картинка с примером веб-сайта" width="370">
-                        <h3>Технокряк</h3>
-                        <p>Веб-сайт</p>
-                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-                            alias.</p>
-                    </a>
+            <!-- РАБОТЫ -->
+            <ul class="list example">
+                <li> <img src="./images/01-tehno.jpg" alt="Картинка с примером веб-сайта" width="370">
+                    <h3 class="title portfolio-title">Технокряк</h3>
+                    <p class="portfolio-content">Веб-сайт</p>
                 </li>
-                <li class="portfolio-example-item">
-                    <a href="#" class="link">
-                        <img src="./images/02-neworlean.jpg" alt="Пример постера" width="370">
-                        <h3>Постер <span lang="en">New Orlean vs Golden Star</span></h3>
-                        <p>Дизайн</p>
-                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-                            alias.</p>
-                    </a>
+                <li>
+                    <img src="./images/02-neworlean.jpg" alt="Пример постера" width="370">
+                    <h3 class="title portfolio-title">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
+                    <p class="portfolio-content">Дизайн</p>
                 </li>
-                <li class="">
-                    <a href="#" class="link">
-                        <img src="./images/03-rest.jpg" alt="Картинка рекламы ресторана" width="370">
-                        <h3>Ресторан Seafood</h3>
-                        <p>Приложение</p>
-                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-                            alias.</p>
-                    </a>
+                <li>
+                    <img src="./images/03-rest.jpg" alt="Картинка рекламы ресторана" width="370">
+                    <h3 class="title portfolio-title">Ресторан Seafood</h3>
+                    <p class="portfolio-content">Приложение</p>
                 </li>
-                <li class="">
-                    <a href="#" class="link">
-                        <img src="./images/04-prime.jpg" alt="Картинка рекламы гаджетов" width="370">
-                        <h3>Проект Prime</h3>
-                        <p>Маркетинг</p>
-                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-                            alias.</p>
-                    </a>
+                <li>
+                    <img src="./images/04-prime.jpg" alt="Картинка рекламы гаджетов" width="370">
+                    <h3 class="title portfolio-title">Проект Prime</h3>
+                    <p class="portfolio-content">Маркетинг</p>
                 </li>
-                <li class="">
-                    <a href="#" class="link">
-                        <img src="./images/05-boxes.jpg" alt="Картинка рекламы приложения" width="370">
-                        <h3>Проект Boxes</h3>
-                        <p>Приложение</p>
-                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-                            alias.</p>
-                    </a>
+                <li>
+                    <img src="./images/05-boxes.jpg" alt="Картинка рекламы приложения" width="370">
+                    <h3 class="title portfolio-title">Проект Boxes</h3>
+                    <p class="portfolio-content">Приложение</p>
                 </li>
-                <li class="portfolio-example-item">
-                    <a href="#" class="link">
-                        <img src="./images/06-no-borders.jpg" alt="Картинка рекламы веб-сайта" width="370">
-                        <h3><span lang="en">Inspiration has no Borders</span></h3>
-                        <p>Веб-сайт</p>
-                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-                            alias.</p>
-                    </a>
+                <li>
+                    <img src="./images/06-no-borders.jpg" alt="Картинка рекламы веб-сайта" width="370">
+                    <h3 class="title portfolio-title"><span lang="en">Inspiration has no Borders</span></h3>
+                    <p class="portfolio-content">Веб-сайт</p>
                 </li>
-                <li class="portfolio-example-item">
-                    <a href="#" class="link">
-                        <img src="./images/07-limit-edit.jpg" alt="Картинка примера дизайна" width="370">
-                        <h3>Издание Limited Edition</h3>
-                        <p>Дизайн</p>
-                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-                            alias.</p>
-                    </a>
+                <li>
+                    <img src="./images/07-limit-edit.jpg" alt="Картинка примера дизайна" width="370">
+                    <h3 class="title portfolio-title">Издание Limited Edition</h3>
+                    <p class="portfolio-content">Дизайн</p>
                 </li>
-                <li class="portfolio-example-item">
-                    <a href="#" class="link">
-                        <img src="./images/08-lab.jpg" alt="Картинка примера рекламы" width="370">
-                        <h3>Проект LAB</h3>
-                        <p>Маркетинг</p>
-                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-                            alias.</p>
-                    </a>
+                <li>
+                    <img src="./images/08-lab.jpg" alt="Картинка примера рекламы" width="370">
+                    <h3 class="title portfolio-title">Проект LAB</h3>
+                    <p class="portfolio-content">Маркетинг</p>
                 </li>
-                <li class="portfolio-example-item">
-                    <a href="#" class="link">
-                        <img src="./images/09-busines.jpg" alt="Картинка рекламы приложения" width="370">
-                        <h3>Growing Business</h3>
-                        <p>Приложение</p>
-                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-                            alias.</p>
-                    </a>
+                <li>
+                    <img src="./images/09-busines.jpg" alt="Картинка рекламы приложения" width="370">
+                    <h3 class="title portfolio-title">Growing Business</h3>
+                    <p class="portfolio-content">Приложение</p>
                 </li>
             </ul>
 
@@ -138,14 +104,21 @@
     </main>
     <!-- ПОДВАЛ СТРАНИЦЫ -->
     <footer>
-        <div class=""></div><!-- ФОН ПОДВАЛА СТРАНИЦЫ -->
-        <a href="./index.html" class="link logo"><span class="blue">Web</span><span class="darck">Studio</span></a>
-        <address>
-            <p class="">г. Киев, пр-т Леси Украинки, 26<br>
-                <a href="mailto:info@example.com">info@example.com</a><br>
-                <a href="tel:+380991111111">+38 099 111 11 11</a>
-            </p>
-        </address>
+        <div class="div-footer">
+            <!-- ФОН ПОДВАЛА СТРАНИЦЫ -->
+            <a href="./index.html" class="link logo"><span class="blue">Web</span><span
+                    class="logo-footer">Studio</span></a>
+            <address class="address">
+                <p class="address-content">
+                    г. Киев, пр-т Леси Украинки, 26</p>
+                <ul class="list contact-footer">
+                    <li><a href="mailto:info@example.com" class="link">info@example.com</a></li>
+                    <li><a href="tel:+380991111111" class="link">+38 099 111 11 11</a></li>
+                </ul>
+
+
+                < </address>
+        </div>
     </footer>
 </body>
 

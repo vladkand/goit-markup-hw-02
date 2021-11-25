@@ -50,13 +50,81 @@ body {
 /* ===  MAIN  === */
 /* ===  HERO  === */
 .hero-img {
-  background-color: var(--text-second-color);
+  background-color: #2f303a;
 }
 .hero-title {
   font-size: 44px;
   font-weight: 900;
-  color: var(--body-prime-color);
+  color: #ffffff;
 }
 .hero-button {
+  color: #ffffff;
+  background-color: var(--text-accent-color);
+  /* ===  HERO-FIN  === */
+}
+/* ===  ВСЕ СЕКЦИИ  === */
+.section-title {
+  font-family: ;
+}
+
+.box-title {
+  font-family: ;
+}
+/* ===  СЕКЦИЯ ОСОБЕННОСТИ  === */
+.nuanse-title {
+  font-family: ;
+}
+.nuanse-content {
+  color: var(--text-second-color);
+}
+/* === СЕКЦИЯ ЧЕМ МЫ ЗАНИМАЕМСЯ === */
+
+/* === СЕКЦИЯ КОМАНДА === */
+.team-title {
+  font-family: ;
+}
+.team-content {
+  font-family: ;
+  color: var(--text-second-color);
+}
+
+/* === FOOTER === */
+.div-footer {
+  background-color: #2f303a;
+}
+.logo-footer {
+  color: #ffffff;
+}
+/* === ADDRESS  === */
+.address {
+  font-style: normal;
+}
+.address-content {
+  color: #ffffff;
+}
+.contact-footer .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.contact-footer .link:hover,
+.contact-footer .link:focus {
+  color: var(--text-accent-color);
+}
+
+/* === FOOTER FIN === */
+/* === PORTFOLIO PAGE */
+/* ---- ВСТАВИТЬ НА ССЫЛКУ CURRENT */
+/* === КНОПКИ === */
+.button-work {
+  background-color: var(--botton-prime-color);
+}
+.button-work:hover,
+.button-work:focus {
   background-color: var(--text-accent-color);
 }
+/* ===  РАБОТЫ  === */
+.portfolio-title {
+}
+.portfolio-content {
+  color: var(--text-second-color);
+}
+/* ===  FIN  === */
