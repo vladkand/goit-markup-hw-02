@@ -5,45 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebStudio</title>
-    <link rel="stylesheet" href="./css/css-color.css">
+    <title>ГЛАВНАЯ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,500;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <!-- ШАПКА САЙТА -->
     <header class="header">
-        <!-- ЛОГОТИП СТУДИИ -->
-        <a href="./index.html"><span class="blue">Web</span><span>Studio</span></a>
         <!-- ГЛАВНАЯ НАВИГАЦИЯ C ПЕРВЫМ СПИСКОМ -->
+        <!-- ЛОГОТИП СТУДИИ -->
+        <a href="./index.html" class="link logo"><span class="blue">Web</span><span>Studio</span></a>
         <nav class="general-nav">
             <!-- ПЕРВЫЙ СПИСОК -->
-            <ul class="nav-pages">
-                <li class="nav-pages-list">
-                    <a href="./index.html" class="link-studio">Студия</a>
-                </li>
-                <li class="nav-pages-list">
-                    <a href="./portfolio.html" class="link-portfolio">Портфолио</a>
-                </li>
-                <li class="nav-pages-list">
-                    <a href="#" class="link-contact">Контакты</a>
-                </li>
+            <ul class="site-nav link">
+                <li class=""><a href="./index.html" class="link studio">Студия</a></li>
+                <li class=""><a href="./portfolio.html" class="link portfolio">Портфолио</a></li>
+                <li class=""><a href="#" class="link contact">Контакты</a></li>
             </ul>
         </nav>
-        <!-- ВТОРОЙ СПИСОК В ШАПКЕ -->
-        <ul class="contakt">
+        <!-- КОНТАКТЫ ВТОРОЙ СПИСОК В ШАПКЕ -->
+        <ul class="list contakt">
             <li class="contact-mail">
-                <a href="mailto:info@devstudio.com" class="imail-studio" rel="">info@devstudio.com</a>
+                <a href="mailto:info@devstudio.com" class="contact-studio" rel="">info@devstudio.com</a>
             </li>
-            <li class="contact-phone">
+            <li class="contact-studio">
                 <a href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
     </header>
     <!-- MAIN СОДЕРЖАНИЕ -->
     <main>
-        <div class="hero-image">
+        <div class="hero-img">
             <!-- ТУТ БОЛЬШАЯ ЧЕРНАЯ КАРТИНКА  -->
-            <img src="./images/bghero.jpg" width="1600" alt="главная картинка">
             <section class="slogan">
                 <h1>Эффективные решения для вашего бизнеса</h1>
                 <button class="order-servise" type="button">Заказать услугу</button>
@@ -52,7 +50,7 @@
         <!-- СЕКЦИЯ ОСОБЕННОСТИ -->
         <section class="section">
             <h2 class="sectiot-title">Особенности</h2>
-            <ul class="">
+            <ul class="list">
                 <li class="">
                     <h3>Внимание к деталям</h3>
                     <p class="">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -74,7 +72,7 @@
         <!-- СЕКЦИЯ ЧЕМ МЫ ЗАНИМАЕМСЯ -->
         <section class="section">
             <h2 class="section-title">Чем мы занимаемся</h2>
-            <ul class="">
+            <ul class="list">
                 <li class="work-pic"><img src="./images/box1.jpg" width="370" alt="руки с клавиатурой">Приложения для РС
                 </li>
                 <li class="work-pic"><img src="./images/box2.jpg" width="370" alt=" рука с мобильным">Приложения для
@@ -86,7 +84,7 @@
         <!-- СЕКЦИЯ КОМАНДА -->
         <section class="section">
             <h2 class="section-title">Наша команда</h2>
-            <ul class="team-grup-all">
+            <ul class="list team-grup-all">
                 <li class="team-card"><img src="./images/t-card1.jpg" width="270" alt="фото Игорь Демьяненко">
                     <h3>Игорь Демьяненко</h3>
                     <p lang="en">Product Designer</p>
