@@ -16,18 +16,19 @@ body {
 .list {
   list-style: none;
 }
-.list a {
+.link {
   text-decoration: none;
 }
 /* ========== HEADER======= */
 .logo {
-  color: var(--text-prime-color);
+  color: #000000;
+  text-decoration: none;
 }
 .blue {
   color: var(--text-accent-color);
 }
-.site-nav .link
+
 /* ===========  HEADER FIN  ====== */
-.hero-img {
+.slogan {
   background-color: var(--text-second-color);
 }
