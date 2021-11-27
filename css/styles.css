@@ -4,14 +4,16 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 :root {
-  --body-prime-color: #ffffff;
-  --body-second-color: #f5f4fa;
-  --text-prime-color: #212121;
-  --text-second-color: #757575;
+  --logo-studio-color: #000000;
+  --bg-prime-color: #ffffff;
+  --bg-second-color: #f5f4fa;
+  --text-prime-color: #757575;
+  --text-second-color: #212121;
   --text-accent-color: #2196f3;
   --botton-prime-color: #f5f4fa;
   --border-color: #eeeeee;
   --link-footer-color: rgba(255, 255, 255, 0.6);
+  --hero-footer-color: #2f303a;
 }
 .list {
   list-style: none;
@@ -21,16 +23,19 @@ body {
 }
 /* ========== HEADER======= */
 .logo {
-  color: #000000;
+  color: var(--logo-studio-color);
   text-decoration: none;
 }
 .blue {
   color: var(--text-accent-color);
 }
 
-/* ====Style NAV==== */
+/* ====SITE NAV==== */
 .site-nav .link {
-  color: var(--text-prime-color);
+  color: var(--text-second-color);
+}
+.site-nav .link.current {
+  color: var(--text-accent-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -39,7 +44,7 @@ body {
 
 /* === КОНТАКТЫ  === */
 .contakt-header .link {
-  color: var(--text-second-color);
+  color: var(--text-prime-color);
 }
 .contakt-header .link:hover,
 .contakt-header .link:focus {
@@ -50,48 +55,50 @@ body {
 /* ===  MAIN  === */
 /* ===  HERO  === */
 .hero-img {
-  background-color: #2f303a;
+  background-color: var(--hero-footer-color);
 }
 .hero-title {
   font-size: 44px;
   font-weight: 900;
   color: #ffffff;
 }
-.hero-button {
+.hero.btn {
   color: #ffffff;
   background-color: var(--text-accent-color);
   /* ===  HERO-FIN  === */
 }
 /* ===  ВСЕ СЕКЦИИ  === */
-.section-title {
-  font-family: ;
-}
-
-.box-title {
-  font-family: ;
+.title {
+  color: var(--text-second-color);
 }
 /* ===  СЕКЦИЯ ОСОБЕННОСТИ  === */
+/* .hidden {
+  color: rgb(255, 221, 221);
+} */
 .nuanse-title {
   font-family: ;
 }
-.nuanse-content {
-  color: var(--text-second-color);
-}
+
 /* === СЕКЦИЯ ЧЕМ МЫ ЗАНИМАЕМСЯ === */
 
 /* === СЕКЦИЯ КОМАНДА === */
+.section.team {
+  background-color: var(--bg-second-color);
+}
 .team-title {
   font-family: ;
 }
-.team-content {
+.txt-content {
   font-family: ;
-  color: var(--text-second-color);
 }
-
+/* === MAIN FIN === */
 /* === FOOTER === */
-.div-footer {
-  background-color: #2f303a;
+.footer {
+  background-color: var(--hero-footer-color);
 }
+/* .div-footer {
+  background-color: #2f303a;
+} */
 .logo-footer {
   color: #ffffff;
 }
@@ -100,7 +107,7 @@ body {
   font-style: normal;
 }
 .address-content {
-  color: #ffffff;
+  color: var(--bg-prime-color);
 }
 .contact-footer .link {
   color: rgba(255, 255, 255, 0.6);
@@ -109,16 +116,18 @@ body {
 .contact-footer .link:focus {
   color: var(--text-accent-color);
 }
-
 /* === FOOTER FIN === */
+
 /* === PORTFOLIO PAGE */
-/* ---- ВСТАВИТЬ НА ССЫЛКУ CURRENT */
-/* === КНОПКИ === */
-.button-work {
+/* === КНОПКИ ПОРТФОЛИО  === */
+.work-list {
+}
+.btn-work {
+  color: var(--text-prime-color);
   background-color: var(--botton-prime-color);
 }
-.button-work:hover,
-.button-work:focus {
+.btn-work:hover,
+.btn-work:focus {
   background-color: var(--text-accent-color);
 }
 /* ===  РАБОТЫ  === */
