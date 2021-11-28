@@ -27,6 +27,7 @@ body {
 } */
 
 /* ========== HEADER======= */
+/* ----  СТИЛЬ ЛОГОТИПА HEADR И FOOTER   --- */
 .logo-top,
 .logo-bоttom {
   text-decoration: none;
@@ -37,8 +38,10 @@ body {
   line-height: 31px;
   letter-spacing: 0.03em;
   text-decoration: none;
+  /* --- ЦВЕТ ЛОГОТИПА HEADER  --- */
   color: var(--logo-studio-color);
 }
+/* -- ЦВЕТОВОЙ АКЦЕНТ ЛОГОТИПА HEADER И FOOTER -- */
 .accent {
   color: var(--text-accent-color);
 }
@@ -53,6 +56,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-second-color);
 }
+/* ---= ПОДСВЕТКА ТЕКУЩЕЙ СТРАНИЦЫ =---  */
 .site-nav .link.current {
   color: var(--text-accent-color);
 }
@@ -61,7 +65,7 @@ body {
   color: var(--text-accent-color);
 }
 
-/* === КОНТАКТЫ  === */
+/* --- КОНТАКТЫ HEADER   --- */
 .contakt-header .link {
   text-decoration: none;
   font-size: 14px;
@@ -78,7 +82,7 @@ body {
 /* ===========  HEADER FIN  ====== */
 
 /* ===  MAIN  === */
-/* ===  HERO  === */
+/* ---  СТИЛЬ ДЛЯ HERO  --- */
 .hero-img {
   background-color: var(--hero-footer-color);
 }
@@ -100,9 +104,9 @@ body {
   letter-spacing: 0.06em;
   color: var(--bg-prime-color);
   background-color: var(--text-accent-color);
-  /* ===  HERO-FIN  === */
+  /* ---  HERO-FIN  --- */
 }
-/* ===  ВСЕ СЕКЦИИ  === */
+/* ===  ДЛЯ ВСЕХ СЕКЦИЙ  === */
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -147,11 +151,11 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* === MAIN FIN === */
+/* === MAIN, INDEX FIN === */
 
-/* === PORTFOLIO PAGE */
-
-/* === КНОПКИ ПОРТФОЛИО  === */
+/* === PORTFOLIO MAIN PAGE === */
+/* -- ЗАГОЛОВОК ПОРТФОЛИО, HIDDEN -- */
+/* --- КНОПКИ ПОРТФОЛИО  --- */
 .work-list {
 }
 .btn-work {
@@ -168,7 +172,7 @@ body {
 .btn-work:focus {
   background-color: var(--text-accent-color);
 }
-/* ===  РАБОТЫ  === */
+/* --- ПРИМЕРЫ  РАБОТ  --- */
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
@@ -190,11 +194,11 @@ body {
 .footer {
   background-color: var(--hero-footer-color);
 }
-/* === ЦВЕТ ЛОГОТИПА ФУТЕРА === */
+/* --- БЕЛЫЙ ЦВЕТ ЛОГОТИПА ФУТЕРА --- */
 .logo-footer {
   color: var(--bg-prime-color);
 }
-/* === АДРКСС ПРОСПЕКТТ == */
+/* === АДРЕСС ПРОСПЕКТТ == */
 .address .text {
   font-family: Roboto;
   font-style: normal;
@@ -204,6 +208,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--bg-prime-color);
 }
+/* --- АДРЕСНЫЕ ССЫЛКИ В ФУТЕРЕ  --- */
 .contact-footer .link {
   text-decoration: none;
   font-style: normal;
@@ -217,3 +222,5 @@ body {
 .contact-footer .link:focus {
   color: var(--text-accent-color);
 }
+
+/* === FOOTER FIN === */
