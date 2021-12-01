@@ -96,7 +96,7 @@ body {
   color: var(--bg-prime-color);
 }
 .hero.btn {
-  font-family: inherit;
+  font-family: inherit; /* НАСЛ-от BODY-  */
   font-weight: 700;
   font-size: 16px;
   line-height: 1.85;
